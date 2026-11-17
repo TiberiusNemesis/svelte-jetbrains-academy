@@ -1,0 +1,23 @@
+{
+  "name": "svelte-jetbrains-academy",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "dependencies": {
+    "svelte": "5.57.3"
+  },
+  "devDependencies": {
+    "@jest/globals": "30.5.2",
+    "@sveltejs/vite-plugin-svelte": "7.3.1",
+    "@testing-library/jest-dom": "7.0.1",
+    "@testing-library/svelte": "5.4.2",
+    "jest": "30.5.2",
+    "jest-environment-jsdom": "30.5.2",
+    "vite": "8.3.8"
+  }
+}
