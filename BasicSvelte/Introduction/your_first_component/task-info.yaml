@@ -1,0 +1,20 @@
+type: edu
+custom_name: Your first component
+files:
+  - name: src/App.svelte
+    visible: true
+    placeholders:
+      - offset: 51
+        length: 6
+        placeholder_text: world
+  - name: src/main.js
+    visible: true
+  - name: index.html
+    visible: true
+  - name: vite.config.js
+    visible: true
+  - name: package.json
+    visible: true
+  - name: test/test.js
+    visible: false
+    propagatable: false
