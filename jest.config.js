@@ -8,4 +8,6 @@ export default {
   transformIgnorePatterns: ['/node_modules/(?!@testing-library/svelte-core)'],
   moduleFileExtensions: ['js', 'svelte'],
   extensionsToTreatAsEsm: ['.svelte'],
+  moduleNameMapper: { '^#utils/(.*)$': '<rootDir>/utils/$1' },
+  setupFilesAfterEnv: ['@testing-library/jest-dom/jest-globals'],
 };
