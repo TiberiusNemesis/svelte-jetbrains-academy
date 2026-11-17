@@ -3,7 +3,7 @@ title: Learn Svelte
 language: English
 summary: |-
   <p>Learn Svelte 5 by writing components in your IDE. Every task is a small Vite project with a test that checks your work.</p>
-  <p>You should be comfortable with HTML, CSS and modern JavaScript. You need Node.js 20.19, 22.12 or later.</p>
+  <p>You should be comfortable with HTML, CSS and modern JavaScript. You need Node.js 22.12 or later.</p>
 programming_language: JavaScript
 content:
   - BasicSvelte
